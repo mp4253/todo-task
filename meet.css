@@ -1,0 +1,42 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+
+.container{
+   background:#401187;
+   height: 100vh;
+}
+
+.navbar{
+    height: 90px;
+    background-color: aqua;
+}
+
+.navbar-item{
+    padding: 20px;
+
+}
+
+.navbar-items{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-items h3:hover{
+    color: red;
+    transition-duration: 2s;
+}
+
+button{
+    background-color:chocolate;
+    border-radius: 1px 2px 3px 4px;
+}
+
+.main-body-input{
+    display: flex;
+    justify-content: center;
+    border: 2px solid red;
+  
+}
